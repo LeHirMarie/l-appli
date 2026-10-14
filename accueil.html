@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accueil - App de Divination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+
+    <div class="screen screen--home">
+
+        <!-- En-tête -->
+        <header class="header">
+            <h1 class="header__title">NOM DE L'APP</h1>
+        </header>
+
+        <!-- Zone centrale : défile si le contenu dépasse -->
+        <main class="screen__content">
+
+            <!-- Cercles du haut (cliquables) -->
+            <nav class="circles" aria-label="Raccourcis">
+                <a href="#" class="circles__item" aria-label="Raccourci 1"></a>
+                <a href="#" class="circles__item" aria-label="Raccourci 2"></a>
+                <a href="#" class="circles__item circles__item--add" aria-label="Ajouter un raccourci">+</a>
+            </nav>
+
+            <!-- Liste des menus (cliquables) -->
+            <nav class="menu" aria-label="Menu principal">
+                <a href="#" class="menu__item">
+                    <span class="menu__icon">🎴</span>
+                    <span class="menu__label">Cartomancie</span>
+                </a>
+                <a href="#" class="menu__item">
+                    <span class="menu__icon">⏳</span>
+                    <span class="menu__label">Pendule</span>
+                </a>
+                <a href="#" class="menu__item">
+                    <span class="menu__icon">ᚨ</span>
+                    <span class="menu__label">Runes</span>
+                </a>
+                <a href="#" class="menu__item">
+                    <span class="menu__icon">ℹ️</span>
+                    <span class="menu__label">Guides</span>
+                </a>
+            </nav>
+
+        </main>
+
+        <!-- Barre de navigation du bas (cliquables) -->
+        <nav class="tabbar" aria-label="Navigation de l'application">
+            <a href="#" class="tabbar__item" title="Prise de photos" aria-label="Prise de photos">📷</a>
+            <a href="#" class="tabbar__item" title="Liste des favoris" aria-label="Liste des favoris">❤️</a>
+            <a href="#" class="tabbar__item" title="Gestion du compte" aria-label="Gestion du compte">👤</a>
+        </nav>
+
+    </div>
+
+</body>
+</html>
